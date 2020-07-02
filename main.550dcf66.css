@@ -1,3 +1,72 @@
+h1.Title {
+    font-size: 72px;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.03, rgb(88, 0, 88)),
+      color-stop(0.52, rgb(160, 4, 160)),
+      color-stop(0.76, rgb(88, 0, 88))
+  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Fantasy", Fantasy, serif;
+    text-align: center;
+}
+
+.Software {
+	box-shadow:inset -6px -1px 0px -16px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 7px #9752cc;
+}
+.Software:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.Software:active {
+	position:relative;
+	top:1px;
+}
+
+.text-center {
+    font-family: "Open Sans", Open Sans, serif;
+    text-align: center;
+    font-weight: 900;
+}
+
+h3.here {
+    text-align: center;
+    font-weight: 900;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #970047;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #ae00ff;
+    font-weight: 900;
+  }
+
+
 @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:300,600|Martel:400,900);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
