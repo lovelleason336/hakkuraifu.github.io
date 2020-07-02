@@ -71,6 +71,10 @@ h3.here {
       border-radius: 15px;
   }
 
+  .img-responsive {
+      border-radius: 15px;
+  }
+
 @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:300,600|Martel:400,900);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
